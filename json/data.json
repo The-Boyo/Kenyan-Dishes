@@ -1,0 +1,51 @@
+[
+  {
+    "productName": "Muthokoi",
+    "from": "Central Kenya",
+    "id": 0,
+    "image":"../photos/fried-muthokoi-recipe-main-photo.jpg",
+    "price": "A plate for KSh.80",
+    "recipe": "Food consists of a mixture of beans, maize and mashed potatoes. You can spice it up by adding finely sliced cabbages and kafiriri kwa umbali",
+    "description": "The food is native to the people of Central Kenya and the nature of its preparation gives it that Mount Kenya region cuisine taste. So native it is that the people of that region have adopted it as their alias."
+  },
+
+  {
+    "productName": "Mbuta",
+    "from": "Nyanza region",
+    "id": 1,
+    "image":"../photos/mbuta.jpg",
+    "price": "A plate for Ksh.200",
+    "recipe": "Just a simple roast, boil and frying with pepper, onion and tomato will do. It goes down well with a plate of ugali.",
+    "description": "Wanna have a taste of this cuisine, just hop on to one of the buses going to the western side of Kenya and you'll get the dish aplenty. The people from the lakeside have mastered the art of preparing this meal."
+  },
+
+  {
+    "productName": "Mursik",
+    "from": "RiftValley",
+    "id": 2,
+    "image":"../photos/mursik.jpg",
+    "price": "A glass for KSh.70",
+    "recipe": "Fermented milk will do but specially stored to bring out the Mursik taste. Mostly stored in a gourd and preserved with a native local burnt tree to improve taste. Ages like fine wine🤗 and fine tunes your ugali taste.",
+    "description": "Native to the Kalenjin tribe who mostly inhabit the highland regions along the rift valley. Always used as a welcoming gift for visitors or for homecomings😎."
+  },
+
+  {
+    "productName": "Nyama Choma",
+    "from": "Kenya",
+    "id": 3,
+    "image":"../photos/choma.jpg",
+    "price": "A 1/4 for KSh.250",
+    "recipe": "Its simply grilled meat.",
+    "description": "Although its a meal enjoyed worldwide, Kenyans have perfected the art of making Nyama Choma especially near drinking joints. It always goes down well with ugali and a bite of pepper with bottle of beer on the side😃."
+  },
+
+  {
+    "productName": "Ugali",
+    "from": "Kenya",
+    "id": 4,
+    "image":"../photos/ugali.jpg",
+    "price": "A piece will go for KSh.50",
+    "recipe": "Made by boiling water then adding maize flour and stirring till the mixture turns into a hard ball.",
+    "description": "A meal enjoyed with anything either fried or boiled. Kenyans love it not only because its nutritious 😋 but also makes one feel full to the brim."
+  }
+]

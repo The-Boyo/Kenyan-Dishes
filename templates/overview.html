@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview Page</title>
+</head>
+<body>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: absolute;
+      width: 100%;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to left, rgb(137, 180, 137), rgb(87, 250, 95));
+    }
+
+    .header {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      align-self: center;
+      font-size: .85em;
+      margin: 1em 0;
+    }
+
+    .title:hover {
+      color: rgb(3, 138, 93);
+    }
+
+    .food-type {
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      align-items: center;
+      min-height: 50px;
+      margin: 0 1em 2em;
+      padding: .5em;
+      box-shadow: 1px 1px 2px 1px;
+      border-radius: 10px;
+    }
+
+    .food-type:hover {
+      transform: translateX(5px);
+    }
+    
+    .food-type > p {
+      border-left:1px solid;
+      padding-left: .3em;
+    }
+    
+    .food-type > .image {
+      border-left: none;
+    }
+    
+
+    .more > a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:visited {
+      color: black;
+    }
+
+    @media screen and (max-width: 592px) {
+      .food-type {
+        font-size: .85em;
+      }
+    }
+
+  </style>
+  <div class="container" >
+    <div class="header">
+      <h1 class="title">Kenyan Cuisines</h1>
+    </div>
+    <div class="food">
+      <ul class="food-list">
+        {%INSERT_CARD%}
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
