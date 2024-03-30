@@ -34,19 +34,37 @@
       color: rgb(3, 138, 93);
     }
 
+    .food {
+      align-self: center;
+    }
+
+    .food-list {
+      padding: 0 .9em;
+    }
+
     .food-type {
       display: grid;
-      grid-template-columns: repeat(4, 2fr);
+      grid-template-columns: 3fr 2fr 2fr 1fr;
       align-items: center;
       min-height: 50px;
+      width: 90%;
       margin: 0 1em 2em;
       padding: .5em;
-      box-shadow: 1px 1px 2px 1px;
+      font-size: .8em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: rgb(62, 146, 62);
+      transform: skewX(-20deg);
+      box-shadow: 1px 1px 1px black;
       border-radius: 10px;
+      color: aliceblue;
     }
 
     .food-type:hover {
-      transform: translateX(5px);
+      box-shadow: 1px 1px 1px 1px aliceblue;
+    }
+
+    .food-type > p, .image, .more {
+      transform: skewX(20deg);
     }
     
     .food-type > p {
@@ -54,23 +72,32 @@
       padding-left: .3em;
     }
     
-    .food-type > .image {
+    .food-type > .image{
       border-left: none;
     }
     
+    .more {
+      background: rgb(48, 48, 179);
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border: none;
+    }
 
     .more > a {
       text-decoration: none;
-      color: black;
+      color: aliceblue;
+      font-size: .85em;
     }
 
     a:visited {
-      color: black;
+      color: aliceblue;
     }
 
     @media screen and (max-width: 592px) {
       .food-type {
-        font-size: .85em;
+        font-size: .7em;
+        width: 90%;
+
       }
     }
 

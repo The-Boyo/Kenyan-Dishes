@@ -18,7 +18,7 @@
     
     .product-container {
       display: grid;
-      margin-top: 1em;
+      margin-top: .5em;
       padding: .2em .5em;
       width: 350px;
       box-shadow: 1px 1px 3px;
@@ -130,6 +130,17 @@
       font-family: 'Times New Roman', Times, serif;
     }
 
+    .back {
+      width: 40px;
+      justify-self: end;
+      background: rgb(44, 44, 247);
+      color: azure;
+      padding: .1em 0 .1em .5em;
+      border-bottom-left-radius: 50%;
+      border-top-left-radius: 50%;
+      text-decoration: none;
+    }
+
   </style>
 </head>
 <body>
@@ -153,6 +164,7 @@
         <h4 class="description-title">DESCRIPTION</h4>
         <p class="description-content">{%DESCRIPTION%}</p>
       </p>
+      <a href="/" class="back">Back</a>
     </div>
   </div>
 </body>
