@@ -45,6 +45,7 @@ const pathName = url.parse(req.url).pathname;
 
     const output2 = replaceTemplate(temp_product, parsedData[parseFloat(id.join())]);
 
+
     res.writeHead(200, {
       "content-type": "text/html"
     })
